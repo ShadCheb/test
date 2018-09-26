@@ -34,6 +34,16 @@ h2{
 	height: 100vh;
 	background: url(img/bg.jpg);
 }
+	.product::before{
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: linear-gradient(to bottom, rgba(0, 0, 0, .6) 0%,rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .6) 100%);
+	}
 	.product__container{
 		position: absolute;
 		padding: 0 20px;
